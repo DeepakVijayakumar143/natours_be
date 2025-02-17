@@ -5,6 +5,5 @@ app.get("/", (req, res) => {
     result: "success",
   });
 });
-app.listen(3000, () => {
-  console.log("app running on port 3000");
-});
+
+module.exports = app;
